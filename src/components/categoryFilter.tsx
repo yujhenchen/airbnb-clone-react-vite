@@ -42,10 +42,6 @@ const CategoryFilter: React.FC = () => {
           className="relative w-[calc(100%-96px)] overflow-x-hidden"
           id="carousel-container"
         >
-          {/* <div
-            className="relative w-[calc(100%-96px)] no-scrollbar overflow-x-scroll"
-            id="category-item-container"
-          > */}
           <div
             className={`flex duration-500`}
             id="category-item-container"
@@ -63,9 +59,7 @@ const CategoryFilter: React.FC = () => {
                     <img
                       src={itemData.src}
                       alt={`${itemData.alt} ${itemData.count}`}
-                      className="object-contain"
-                      width={"100%"}
-                      height={"100%"}
+                      className="object-contain w-full h-full"
                     />
                   </div>
 
@@ -76,7 +70,7 @@ const CategoryFilter: React.FC = () => {
           </div>
           <button
             className="absolute top-1/2 box-border flex h-8 w-8 -translate-y-1/2 items-center rounded-full border-2 border-solid border-gray-300 bg-white"
-            value={"previous"}
+            value="previous"
             onClick={handleClickPrevious}
             disabled={startIndex === slideStart ? true : false}
           >
@@ -99,7 +93,7 @@ const CategoryFilter: React.FC = () => {
           </button>
           <button
             className="absolute left-full top-1/2 box-border flex h-8 w-8 -translate-x-full -translate-y-1/2 items-center rounded-full border-2 border-solid border-gray-300 bg-white"
-            value={"next"}
+            value="next"
             onClick={handleClickNext}
             disabled={startIndex > slideLength ? true : false}
           >

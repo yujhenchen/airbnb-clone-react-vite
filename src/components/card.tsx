@@ -14,14 +14,8 @@ const imgList: ImageData[] = [
 
 const renderSlides = imgList.map((img) => {
   return (
-    <div key={img.alt} className="h-64">
-      <img
-        width={"100%"}
-        height={"100%"}
-        src={img.src}
-        alt={img.alt}
-        style={{ objectFit: "cover" }}
-      />
+    <div key={img.alt} className="h-64 w-full">
+      <img className="object-cover w-full h-full" src={img.src} alt={img.alt} />
     </div>
   );
 });

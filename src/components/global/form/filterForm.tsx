@@ -1,12 +1,10 @@
 import { useState } from "react";
 
 const FilterForm = () => {
-  //   const coolArray = ["Cool", "Cool + 1"];
   const [coolArray, setCoolArray] = useState<string[]>(["Cool + 1"]);
 
   function addCool() {
     const newThingText = `Cool + ${coolArray.length + 1}`;
-    // coolArray.push(newThingText);
     setCoolArray((prevCools) => [...prevCools, newThingText]);
   }
 

@@ -9,8 +9,7 @@ const Banner: React.FC = () => {
         <button className="flex items-center space-x-4">
           <div className="relative h-10 w-10">
             <img
-              width={"100%"}
-              height={"100%"}
+              className="w-full h-full"
               src="/assets/player.jpg"
               alt="Watch more about different houses films"
             />
