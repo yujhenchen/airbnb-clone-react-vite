@@ -14,7 +14,7 @@ const Content: React.FC = () => {
   });
 
   return (
-    <section className="container mx-auto px-10 pt-4">
+    <section className="px-10 pt-4">
       <div className="flex justify-center gap-x-2">
         <div className="border-box grid h-16 w-screen grid-cols-6 items-center justify-items-center rounded-xl border-2 border-solid border-gray-300 bg-white md:w-screen lg:w-screen xl:w-2/4 2xl:w-1/3">
           <p className="col-span-2 text-center">Display total price</p>

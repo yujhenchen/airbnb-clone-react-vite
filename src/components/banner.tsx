@@ -1,15 +1,12 @@
 const Banner: React.FC = () => {
   return (
-    <div className="flex h-14 place-content-between items-center bg-gray-200 px-12">
+    <div className="flex h-14 place-content-between items-center bg-gray-200 px-12 w-full text-xs md:text-base">
       <h1 className="">Introducing All houses and 10+ features</h1>
-      <div
-        className="flex place-content-around space-x-6"
-        id="more-info-container"
-      >
+      <div className="flex place-content-around space-x-6">
         <button className="flex items-center space-x-4">
           <div className="relative h-10 w-10">
             <img
-              className="w-full h-full"
+              className="w-full h-full object-cover"
               src="/assets/player.jpg"
               alt="Watch more about different houses films"
             />

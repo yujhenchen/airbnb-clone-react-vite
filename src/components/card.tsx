@@ -31,8 +31,8 @@ const dots = [1, 2, 3, 4, 5].map((index) => {
 
 const CardImageCarousel: React.FC = () => {
   return (
-    <div className="container relative">
-      <div className="container relative">
+    <div className="relative">
+      <div className="relative">
         {renderSlides}
         <a className="absolute left-4 top-2/4 cursor-pointer text-white">
           &#10094;

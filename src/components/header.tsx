@@ -2,7 +2,7 @@ import Search from "./search";
 
 const Header: React.FC = () => {
   return (
-    <header className="sticky top-0 z-20 flex h-20 items-center justify-between border-b border-gray-300 bg-white px-12">
+    <header className="sticky top-0 z-20 flex h-20 items-center justify-between border-b border-gray-300 bg-white px-12 w-full">
       <div className="relative h-12 w-12">
         <img
           className="object-cover w-full h-full"
@@ -11,7 +11,7 @@ const Header: React.FC = () => {
         />
       </div>
       <Search />
-      <div className="flex items-center space-x-4" id="profile-container">
+      <div className="flex items-center space-x-4">
         <button className="flex">ThePlace your house</button>
         <button>
           <svg

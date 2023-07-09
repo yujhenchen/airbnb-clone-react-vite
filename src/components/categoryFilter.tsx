@@ -33,18 +33,11 @@ const CategoryFilter: React.FC = () => {
   };
 
   return (
-    <div className="container sticky top-16 z-10 mx-auto flex h-28 items-center bg-white pt-4">
-      <div
-        className="container flex w-full items-center space-x-4"
-        id="filter-component-container"
-      >
-        <div
-          className="relative w-[calc(100%-96px)] overflow-x-hidden"
-          id="carousel-container"
-        >
+    <div className="sticky top-16 z-10 mx-auto flex h-28 items-center bg-white pt-4">
+      <div className="flex w-full items-center space-x-4">
+        <div className="relative w-[calc(100%-96px)] overflow-x-hidden">
           <div
             className={`flex duration-500`}
-            id="category-item-container"
             style={{
               transform: `translateX(-${startIndex}px)`,
             }} /*use css here due to tailwindcss do not allow construct class names dynamically*/

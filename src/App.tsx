@@ -6,11 +6,14 @@ import Banner from "./components/banner";
 
 function App() {
   return (
-    <main className="min-h-screen">
+    <main className="min-h-screen w-screen">
       <Banner />
       <Header />
-      <CategoryFilter />
-      <Content />
+      <div className="container mx-auto">
+        <CategoryFilter />
+        <Content />
+      </div>
+
       <Footer />
     </main>
   );
