@@ -2,18 +2,18 @@ const Search: React.FC = () => {
   return (
     <div className="w-full lg:w-1/3 relative box-border flex h-14 items-center justify-center rounded-full border-2 border-solid px-6">
       <div className="flex items-center divide-x border-gray-300">
-        <button className="h-14 pr-8 text-sm">
+        <button className="h-14 pr-8 text-sm min-w-0">
           <span className="">Any location</span>
         </button>
-        <button className="h-14 px-8">
+        <button className="h-14 px-8 min-w-0">
           <span className="">Any date</span>
         </button>
-        <button className="h-14 px-8">
+        <button className="h-14 px-8 min-w-0">
           <span className="">Any people</span>
         </button>
       </div>
 
-      <button className="absolute right-2 flex h-10 w-10 items-center justify-center rounded-full bg-sky-300">
+      <button className="min-w-0 absolute right-2 flex h-10 w-10 items-center justify-center rounded-full bg-sky-300">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           height="1em"

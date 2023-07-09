@@ -27,9 +27,9 @@ const Footer: React.FC = () => {
         </ul>
       </div>
       <div className="flex space-x-4">
-        <button>English(US)</button>
-        <button>$TWD</button>
-        <button>Support & resources</button>
+        <button className="min-w-0">English(US)</button>
+        <button className="min-w-0">$TWD</button>
+        <button className="min-w-0">Support & resources</button>
       </div>
     </footer>
   );

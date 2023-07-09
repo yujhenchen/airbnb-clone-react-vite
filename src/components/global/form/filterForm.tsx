@@ -26,7 +26,7 @@ const FilterForm = () => {
 
       <div className="col-span-2 flex items-center justify-center bg-gray-400 p-2">
         <button
-          className="bg-gray-500 transition-colors hover:bg-sky-300"
+          className="bg-gray-500 transition-colors hover:bg-sky-300 min-w-0"
           onClick={addCool}
         >
           Generate

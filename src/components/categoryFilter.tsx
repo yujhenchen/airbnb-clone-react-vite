@@ -62,7 +62,7 @@ const CategoryFilter: React.FC = () => {
             })}
           </div>
           <button
-            className="absolute top-1/2 box-border flex h-8 w-8 -translate-y-1/2 items-center rounded-full border-2 border-solid border-gray-300 bg-white"
+            className="min-w-0 absolute top-1/2 box-border flex h-8 w-8 -translate-y-1/2 items-center rounded-full border-2 border-solid border-gray-300 bg-white"
             value="previous"
             onClick={handleClickPrevious}
             disabled={startIndex === slideStart ? true : false}
@@ -85,7 +85,7 @@ const CategoryFilter: React.FC = () => {
             </svg>
           </button>
           <button
-            className="absolute left-full top-1/2 box-border flex h-8 w-8 -translate-x-full -translate-y-1/2 items-center rounded-full border-2 border-solid border-gray-300 bg-white"
+            className="min-w-0 absolute left-full top-1/2 box-border flex h-8 w-8 -translate-x-full -translate-y-1/2 items-center rounded-full border-2 border-solid border-gray-300 bg-white"
             value="next"
             onClick={handleClickNext}
             disabled={startIndex > slideLength ? true : false}
@@ -108,7 +108,7 @@ const CategoryFilter: React.FC = () => {
             </svg>
           </button>
         </div>
-        <button className="box-border flex h-12 w-24 flex-nowrap items-center space-x-2 rounded-xl border-2 border-solid border-gray-300 bg-white p-4">
+        <button className="min-w-0 box-border flex h-12 w-24 flex-nowrap items-center space-x-2 rounded-xl border-2 border-solid border-gray-300 bg-white p-4">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             height="1em"
