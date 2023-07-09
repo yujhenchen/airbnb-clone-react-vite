@@ -13,7 +13,6 @@ function App() {
         <CategoryFilter />
         <Content />
       </div>
-
       <Footer />
     </main>
   );
