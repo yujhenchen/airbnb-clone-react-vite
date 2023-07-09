@@ -1,14 +1,14 @@
 export default function Card() {
   return (
     <div className="flex flex-col">
-      <div className="flex h-full w-full">
+      <div className="flex">
         <img
           className="object-cover w-full h-full aspect-square"
           src="/assets/room.jpg"
           alt="Image 1 alt"
         />
       </div>
-      <div className="grid grid-cols-2 pt-2">
+      <div className="grid grid-cols-2 pt-1">
         <span className="font-semibold">Helsinki, Finland</span>
         <div className="flex items-center justify-end">
           <svg

@@ -6,7 +6,7 @@ import Banner from "./components/banner";
 
 function App() {
   return (
-    <main className="min-h-screen w-screen">
+    <main className="min-h-screen">
       <Banner />
       <Header />
       <div className="container mx-auto">
