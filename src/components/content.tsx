@@ -16,7 +16,7 @@ export default function Content() {
       </div>
       <div className="pt-8 grid pb-16 grid-cols-1 py-2 gap-4 md:grid-cols-2 md:space-x-4 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-6">
         {cardIndexLs.map((index) => {
-          return <Card />;
+          return <Card key={index} />;
         })}
       </div>
     </section>
