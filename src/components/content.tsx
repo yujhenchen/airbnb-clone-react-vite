@@ -3,11 +3,7 @@ import Card from "./card";
 
 export default function Content() {
   const cardCount = 12;
-  const cardIndex = Array.from(Array(cardCount).keys()).map((x) => x + 1);
-
-  const cards = cardIndex.map((index) => {
-    return <Card />;
-  });
+  const cardIndexLs = Array.from(Array(cardCount).keys()).map((x) => x + 1);
 
   return (
     <section className="flex flex-col items-center px-10 pt-4 w-full">
@@ -19,7 +15,9 @@ export default function Content() {
         <ToggleSwitch />
       </div>
       <div className="pt-8 grid pb-16 grid-cols-1 py-2 gap-4 md:grid-cols-2 md:space-x-4 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-6">
-        {cards}
+        {cardIndexLs.map((index) => {
+          return <Card />;
+        })}
       </div>
     </section>
   );

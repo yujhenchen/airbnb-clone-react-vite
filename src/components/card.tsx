@@ -8,7 +8,7 @@ export default function Card() {
           alt="Image 1 alt"
         />
       </div>
-      {/* <div className="grid grid-cols-2 pt-2">
+      <div className="grid grid-cols-2 pt-2">
         <span className="font-semibold">Helsinki, Finland</span>
         <div className="flex items-center justify-end">
           <svg
@@ -27,7 +27,7 @@ export default function Card() {
           <span className="pr-2 font-semibold">TWD</span>
           <span>night</span>
         </div>
-      </div> */}
+      </div>
     </div>
   );
 }
