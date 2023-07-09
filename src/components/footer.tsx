@@ -1,9 +1,9 @@
 export default function Footer() {
   return (
-    <footer className="fixed bottom-0 flex h-10 w-screen place-content-between items-center bg-gray-100 px-10 text-sm">
+    <footer className="fixed bottom-0 flex h-10 w-screen place-content-between items-center bg-gray-100 px-10 text-xs md:text-sm">
       <div className="flex space-x-1">
         <span>© 2023 ThePlace, Inc.</span>
-        <ul className="inline-block items-center space-x-1">
+        <ul className="hidden md:inline-block items-center space-x-1">
           <li className="inline-block">
             <span className="">.</span>
             <a href={""}>Terms</a>

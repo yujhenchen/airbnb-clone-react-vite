@@ -11,9 +11,9 @@ export default function Banner() {
               alt="Watch more about different houses films"
             />
           </div>
-          <span className="text-sm text-gray-500">Watch the Rooms film</span>
+          <span className="text-gray-500">Watch the Rooms film</span>
         </button>
-        <button className="text-sm text-gray-500 min-w-0">Learn More</button>
+        <button className="text-gray-500 min-w-0">Learn More</button>
       </div>
     </div>
   );

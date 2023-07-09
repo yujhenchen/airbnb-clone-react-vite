@@ -1,14 +1,14 @@
 export default function Search() {
   return (
     <div className="w-full lg:w-1/3 relative box-border flex h-14 items-center justify-center rounded-full border-2 border-solid px-6">
-      <div className="flex items-center divide-x border-gray-300">
-        <button className="h-14 pr-8 text-sm min-w-0">
+      <div className="flex items-center divide-x border-gray-300 text-sm md:text-base">
+        <button className="h-14 pr-4 md:pr-8 min-w-0">
           <span className="">Any location</span>
         </button>
-        <button className="h-14 px-8 min-w-0">
+        <button className="h-14 pr-4 md:px-8 min-w-0">
           <span className="">Any date</span>
         </button>
-        <button className="h-14 px-8 min-w-0">
+        <button className="h-14 pr-4 md:px-8 min-w-0">
           <span className="">Any people</span>
         </button>
       </div>
