@@ -1,8 +1,8 @@
 const Search: React.FC = () => {
   return (
-    <div className="w-120 relative box-border flex h-14 items-center justify-center rounded-full border-2 border-solid px-6">
+    <div className="w-full lg:w-1/3 relative box-border flex h-14 items-center justify-center rounded-full border-2 border-solid px-6">
       <div className="flex items-center divide-x border-gray-300">
-        <button className="h-14 pr-8">
+        <button className="h-14 pr-8 text-sm">
           <span className="">Any location</span>
         </button>
         <button className="h-14 px-8">

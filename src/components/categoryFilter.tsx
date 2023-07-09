@@ -33,7 +33,7 @@ const CategoryFilter: React.FC = () => {
   };
 
   return (
-    <div className="sticky top-16 z-10 mx-auto flex h-28 items-center bg-white pt-4">
+    <div className="sticky top-16 z-10 w-full flex h-28 items-center bg-white pt-4 px-2">
       <div className="flex w-full items-center space-x-4">
         <div className="relative w-[calc(100%-96px)] overflow-x-hidden">
           <div
