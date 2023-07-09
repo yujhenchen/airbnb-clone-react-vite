@@ -1,4 +1,4 @@
-const ToggleSwitch: React.FC = () => {
+export default function ToggleSwitch() {
   return (
     <>
       <label className="relative inline-block h-10 w-14">
@@ -7,6 +7,4 @@ const ToggleSwitch: React.FC = () => {
       </label>
     </>
   );
-};
-
-export default ToggleSwitch;
+}

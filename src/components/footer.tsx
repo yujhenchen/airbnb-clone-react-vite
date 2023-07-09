@@ -1,4 +1,4 @@
-const Footer: React.FC = () => {
+export default function Footer() {
   return (
     <footer className="fixed bottom-0 flex h-10 w-screen place-content-between items-center bg-gray-100 px-10 text-sm">
       <div className="flex space-x-1">
@@ -33,6 +33,4 @@ const Footer: React.FC = () => {
       </div>
     </footer>
   );
-};
-
-export default Footer;
+}

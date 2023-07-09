@@ -1,4 +1,4 @@
-const Search: React.FC = () => {
+export default function Search() {
   return (
     <div className="w-full lg:w-1/3 relative box-border flex h-14 items-center justify-center rounded-full border-2 border-solid px-6">
       <div className="flex items-center divide-x border-gray-300">
@@ -25,6 +25,4 @@ const Search: React.FC = () => {
       </button>
     </div>
   );
-};
-
-export default Search;
+}

@@ -1,7 +1,7 @@
 import ToggleSwitch from "./global/toggleSwitch/toggleSwitch";
 import Card from "./card";
 
-const Content: React.FC = () => {
+export default function Content() {
   const cardCount = 12;
   const cardIndex = Array.from(Array(cardCount).keys()).map((x) => x + 1);
 
@@ -22,11 +22,9 @@ const Content: React.FC = () => {
         </div>
         <ToggleSwitch />
       </div>
-      {/* <div className="pt-8 grid pb-16 grid-cols-1 py-2 gap-4 md:grid-cols-2 md:space-x-4 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-6">
+      <div className="pt-8 grid pb-16 grid-cols-1 py-2 gap-4 md:grid-cols-2 md:space-x-4 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-6">
         {cards}
-      </div> */}
+      </div>
     </section>
   );
-};
-
-export default Content;
+}

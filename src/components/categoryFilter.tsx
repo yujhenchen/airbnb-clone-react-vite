@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { type ImgData } from "../modules/global.module";
 
-const CategoryFilter: React.FC = () => {
+export default function CategoryFilter() {
   const [startIndex, setStartIndex] = useState(0);
 
   const categoryItemData: (ImgData & { count: number })[] = Array.from(
@@ -122,6 +122,4 @@ const CategoryFilter: React.FC = () => {
       </div>
     </div>
   );
-};
-
-export default CategoryFilter;
+}

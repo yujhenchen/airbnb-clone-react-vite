@@ -1,6 +1,6 @@
 import Search from "./search";
 
-const Header: React.FC = () => {
+export default function Header() {
   return (
     <header className="sticky top-0 z-20 flex h-20 items-center justify-between border-b border-gray-300 bg-white px-12 w-full">
       <div className="relative h-12 w-12">
@@ -44,6 +44,4 @@ const Header: React.FC = () => {
       </div>
     </header>
   );
-};
-
-export default Header;
+}

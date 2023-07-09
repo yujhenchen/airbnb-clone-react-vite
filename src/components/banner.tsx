@@ -1,4 +1,4 @@
-const Banner: React.FC = () => {
+export default function Banner() {
   return (
     <div className="flex h-14 place-content-between items-center bg-gray-200 px-12 w-full text-xs md:text-base">
       <h1 className="">Introducing All houses and 10+ features</h1>
@@ -17,6 +17,4 @@ const Banner: React.FC = () => {
       </div>
     </div>
   );
-};
-
-export default Banner;
+}
