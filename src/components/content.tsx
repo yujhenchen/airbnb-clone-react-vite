@@ -6,11 +6,7 @@ export default function Content() {
   const cardIndex = Array.from(Array(cardCount).keys()).map((x) => x + 1);
 
   const cards = cardIndex.map((index) => {
-    return (
-      <div key={index}>
-        <Card />
-      </div>
-    );
+    return <Card />;
   });
 
   return (
