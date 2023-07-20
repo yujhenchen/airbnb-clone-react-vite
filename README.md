@@ -33,6 +33,11 @@ yarn dev
 
 Give a ⭐️ if this project helped you!
 
+## 📝 License
+
+Copyright © 2019 [Jen Chen](https://github.com/yujhenchen).<br />
+This project is [MIT](https://github.com/yujhenchen/airbnb-clone-react-vite/blob/main/LICENSE) licensed.
+
 ---
 
 _This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
